@@ -13,7 +13,7 @@
         El DOM es la estructura de objetos que genera el navegador cuando se carga un documento y se puede alterar mediante Javascript para cambiar dinámicamente los contenidos y aspecto de la página.
     </div>
 
-    <P name="caracteristica">
+    <P name="caracteristicas">
         El modelo de objeto de documento (DOM) es una interfaz de programación para los documentos HTML y XML. Facilita una representación estructurada del documento y define de qué manera los programas pueden acceder, al fin de modificar, tanto su estructura, estilo y contenido.
     </P>
 
@@ -23,12 +23,12 @@
 
     <form>
         Nombre: <input type="text" id="nombre"/>
-        <br/> ¿sabes programar? Si <input type="radio" id="rsi" name="programar" value="SI"/> NO 
+        <br/> ¿sabes programar? SI <input type="radio" id="rsi" name="programar" value="SI"/> 
         <input type="radio" id="rno" name="programar" value="NO" />
         <br/> Marcar si eres estudiante: <input type="checkbox" id="estudiante" value="SI" />
         <br/>
-        <button type="button">Validar</button>
-        <button type="button">Limpiar</button>
+        <button type="button" onclick="valida()">Validar</button>
+        <button type="button" onclick="limpia()">Limpiar</button>
     </form>
 
     <script src="index.js"></script>
